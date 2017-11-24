@@ -2,11 +2,13 @@ import tweepy
 
 from textblob import TextBlob
 
-consumer_key= 'CONSUMER_KEY_HERE'
-consumer_secret= 'CONSUMER_SECRET_HERE'
+consumer_key = 'mZTUTgjwzujV1TnbUcG7htJAT'
 
-access_token='ACCESS_TOKEN_HERE'
-access_token_secret='ACCESS_TOKEN_SECRET_HERE'
+consumer_secret = 'WWyKReMcKLCpdTnsjeyUrTFiTg4cowB8uCd94UIlTZ3Cm9rynK'
+
+access_token = '1562516754-dV5SYxvpS8jAodMMnEOi1GBDXykyK8bq7k0tRJM'
+
+access_token_secret = 'LHj0WwPFaCi27ASHEJlLkDTY8U0msIKhYPoeUorriidS9'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
@@ -25,4 +27,4 @@ for tweet in public_tweets:
 
 	print(analysis.sentiment)
 
-	print("")
+	print()
